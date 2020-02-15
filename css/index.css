@@ -18,10 +18,11 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -62,6 +63,29 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/*Header*/
+.top-nav{
+    display:flex;
+   
+    justify-content: space-evenly;
+    align-items: center;
+    width: 48%;
+    margin-left: 26%;
+    padding-bottom: 2%;
+}
+
+nav a{
+    padding: 2%;
+    text-decoration: none;
+    color: black;
+}
+/*top picture first page*/
+.Jumbo-img{
+    margin-left: 28.5%;
+    padding-bottom: 2%;
+}
+
+
 p {
     line-height: 1.4;
 }
@@ -90,6 +114,11 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
+/*BOXES*/
+
+
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -99,18 +128,134 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: space-evenly ;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1{
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2{
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4{
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px  2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+
+    
+}
+
+.middle-content .boxes .box7{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+   ;
+}
+
+.middle-content .boxes .box8{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px  2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    
+}
+
+.middle-content .boxes .box9{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.middle-content .boxes .box10{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+
+/*BOXES*/
+
+
+
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +289,156 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*About Page*/
+
+.about-head{
+    border-bottom-style: dotted;
+    padding-bottom: 2%;
+}
+
+
+/*Middle content*/
+
+
+.About-Middle{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Strategy{
+    display:flex;
+    flex-wrap: wrap;
+    width: 48%;
+    border-bottom: dotted;
+    border-color: gray;
+    padding-bottom: 3%;
+}
+
+.How-We-Work{
+    display: flex;
+    display:flex;
+    flex-wrap: wrap;
+    width: 48%;
+    border-bottom: dotted;
+    border-color: gray;
+    padding-bottom: 3%;
+}
+
+.Places-We-Work{
+    display:flex;
+    flex-wrap: wrap;
+    width: 48%;
+    border-bottom: dotted;
+    padding-bottom: 3%;
+}
+
+.Collaboration{
+    display:flex;
+    flex-wrap: wrap;
+    width: 48%;
+    border-bottom: dotted;
+    padding-bottom: 3%;
+}
+
+.middle-imgs1{
+    padding-top: 6%;
+}
+
+.middle-imgs2{
+    padding-top: 10%;
+}
+
+button{
+    position: relative;
+       
+       
+        color: black;
+        font-size: 14px;
+        border-color: black;
+        border-style: solid;
+        
+        border-radius: 12%;
+        padding:2%;
+        margin-top: 2%;
+    
+}
+
+
+/*Bottom*/
+
+.About-Bottom{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*contac*/
+
+
+.Contact{
+    margin-left: 50%;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: rgb(170, 119, 52);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
